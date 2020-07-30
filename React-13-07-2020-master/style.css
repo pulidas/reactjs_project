@@ -1,0 +1,32 @@
+.mail{
+	background-color: #f4f4f4;
+}
+#name{
+	background-color: #fff;
+	color: #000;
+}
+.parent-div{
+	border: 2px solid #000;
+    margin: 5px;
+}
+.Basicdetails{
+	border: 2px solid #ddd;
+	margin: 5px;
+}
+.Movie-fav{
+	border: 2px solid #ddd;
+	margin: 5px;
+}
+.cric-fav{
+	border: 2px solid #ddd;
+	margin: 5px;
+}
+table,td,tr{
+	border: 2px solid #000;
+	border-collapse: collapse;
+}
+.parent-div{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around; 
+}

@@ -1,0 +1,35 @@
+{
+	"details":{
+		"name":"D.Sairam",
+		"email":"sairam.d@apssdc.in",
+		"phone":999999999,
+		"address":"1-83,lakshmipuram",
+		"image":"image-profile.png"
+	},
+	"favmovies":[
+		"vivekam","rangam","7th sense","dangal"
+	],
+	"favcricketers":[
+		{
+			"name":"Gautham Gambhir",
+			"bstyle":"left-hand"
+		},
+		{
+			"name":"Ganguly",
+			"bstyle":"left-hand"
+		}
+	,
+	{
+			"name":"Suresh Raina",
+			"bstyle":"left-hand"
+		},
+		{
+			"name":"Rishab Pant",
+			"bstyle":"left-hand"
+		},
+		{
+			"name":"YuvaRaj Singh",
+			"bstyle":"left-hand"
+		}
+	]
+}

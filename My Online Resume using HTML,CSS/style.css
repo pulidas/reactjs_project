@@ -1,0 +1,382 @@
+body{
+  margin:0px auto;
+  width:100%;
+}
+nav ul li{
+    list-style-type: none;
+    float: left;
+    padding-right: 2.5em;
+    color: #44f10f;
+}
+nav ul{
+  float: right;
+}
+nav{
+  width: 100%;
+  height: 50px;
+  background-color: #f0134d;
+  position: fixed;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+section{
+  background-color: #40bfc1;
+}
+.home{
+  background-color: #ff6f5e;
+  text-align: center;
+  font-size:45px;
+  color: #ffffff;
+  display: table;
+  height: 100vh;
+  width: 100%;
+}
+.home .inner{
+  display: table-cell;
+  vertical-align: middle;
+}
+.home .inner h1{
+  font-family: 'Noto Serif', serif;
+}
+.home .inner img{
+  border-radius: 100%;
+  width: 250px;
+  height: auto;
+}
+.about{
+  background-image: ('https://cdn.iconscout.com/icon/premium/png-256-thumb/mouse-853-1091333.png');
+  /*https://cdn.iconscout.com/icon/premium/png-256-thumb/mouse-853-1091333.png*/
+  display: table;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about .inner{
+  display: table-cell;
+  vertical-align: middle;
+  width: 70%;
+  float: left;
+  padding-top: 75px;
+  padding-left: 50px;
+} 
+.about .inner h1{
+  font-size: 40px;
+  color: #fff;
+  font-weight: 300;
+}
+.about .inner p{
+  font-size: 28px;
+  line-height: 50px;
+  color: #fff;
+}
+.education {
+  background-color: #fff;
+  display: table;
+  height: 100vh;
+  width: 100%;
+}
+.education .inner{
+  padding: 50px;
+}
+.education h1, .hobbies h1, .skills h1, .contact h1{
+  font-size: 42px;
+}
+.education .inner div, .hobbies .inner div, .skills .inner div{
+  width: 30%;
+  margin-left:5px;
+  margin-right: 5px;
+  float: left;
+  text-align: center;
+}
+.education .inner div p, .hobbies .inner div p, .skills .inner div ul li, .contact .inner p{
+  font-size: 26px;
+}
+.education .inner div img, .hobbies .inner div img{
+  width: 100px;
+  height: auto;
+}
+.hobbies, .skills{
+  display: table;
+  height: 100vh;
+  width: 100%;
+}
+.hobbies .inner, .contact .inner{
+  padding: 50px;
+}
+.skills{
+  background-image: url("https://i.pinimg.com/originals/13/98/a7/1398a784369d49663ba995e13f12d621.png");
+  /*('https://i.pinimg.com/474x/ce/74/f2/ce74f24391fd633ef41ae68faf477289.jpg');*/
+  background-style: no-repeat;
+  background-size: cover;
+}
+.skills .inner{
+  background-color: rgba(0,0,0,0.7);
+  padding: 250px;
+  color: #fff;
+  background-color-size: 100%;
+}
+.skills .inner div ul li{
+  list-style-type: none;
+}
+.skills .inner div ul li{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.contact .inner{
+  text-align: center;
+}
+.contact{
+  display: table;
+  height: 100vh;
+  width: 100%;
+  background-color: #fff3a3;
+}
+.hobbies{
+  background-color: #a8e6cf;
+}
+@media (min-width:320px) and (max-width:767px){
+  .home .inner img{
+    padding-top: 100px;
+  }
+  .home{
+    padding: 450px;
+  }
+  .about{
+
+  }
+  .about{
+   padding: 850px;
+   padding-top: 1px;
+   padding-bottom: 1px;
+   padding-left: 150px;
+  }
+  #about{
+    background: burlywood:important;
+  }
+  .about .inner{
+    width: 90%
+    padding: 10px;
+  }
+  .about .inner p{
+  font-size: 18px;
+  text-align: justify;
+  }
+  .education .inner div, .hobbies .inner div, .skills .inner div{
+  width: 100%;
+  height: auto;
+  }
+  .education{
+    padding: 100px;
+  }
+  .hobbies{
+   padding: 200px;
+   padding-left: 10px;
+  }
+  .hobbies .inner div{
+  border-bottom: 2px solid #d3d3d3;
+  padding: 505px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  }
+  .skills{
+    padding: 100px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+  }
+  .skills .inner{
+  background-color: rgba(0,0,0,0.7);
+  padding: 600px;
+  color: #fff;
+  background-color-size: 100%;
+ }
+ .skills .inner h1{
+   padding-top: 1px;
+   padding-bottom: 1px;
+ }
+ .skills .inner div ul li{
+  padding-top: 10px;
+  padding-bottom: 10px;
+ }
+ .contact .inner{
+  text-align: center;
+  padding: 520px;
+  padding-bottom: 48px;
+  background-color-size: 40%;
+ }
+}
+@media (min-width:375px) and (max-width:767px)
+{
+ .home .inner img{
+    padding-top: 100px;
+  }
+  .home{
+    padding: 650px;
+  }
+  .about{
+   padding: 680px;
+   padding-top: 1px;
+   padding-bottom: 1px;
+   padding-left: 150px;
+   width: 100px; 
+   height: auto;
+  }
+  #about{
+    background: burlywood:important; 
+  }
+  .about .inner{
+    width: 90%
+    padding:10px;
+  }
+  .about .inner p{
+  font-size: 50px;
+  text-align: justify;
+  }
+  .education .inner div, .hobbies .inner div, .skills .inner div{
+  width: 100%;
+  height: auto;
+  }
+  .education{
+    padding: 700px;
+  }
+  .education .inner div {
+  font-size: 40px;
+  }
+  .hobbies{
+   padding: 490px;
+   padding-left: 20px;
+  }
+  .hobbies .inner div{
+  border-bottom: 2px solid #d3d3d3;
+  padding: 700px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  }
+  .hobbies .inner div h1{
+    font-size: 90px;
+  }
+  .hobbies .inner div p{
+    font-size: 40px;
+  }
+  .skills{
+    padding: 100px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  .skills .inner{
+  background-color: rgba(0,0,0,0.7);
+  padding: 910px;
+  color: #fff;
+  background-color-size: 100%;
+ }
+ .skills .inner h1{
+   padding-top: 1px;
+   padding-bottom: 1px;
+   font-size: 60px;
+ }
+ .skills .inner div ul li{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 50px;
+ }
+ .contact .inner h1{
+   font-size: 50px;
+ }
+ .contact .inner p{
+   font-size: 50px;
+   text-align: center;
+ }
+ .contact .inner{
+  text-align: center;
+  padding: 520px;
+  padding-bottom: 48px;
+  background-color-size: 40%;
+}
+@media (min-width:768px) and (max-width:1023px)
+{
+  .home .inner img{
+    padding-top: 100px;
+  }
+  .home{
+    padding: 1150px;
+  }
+  .about{
+   padding: 2580px;
+   padding-top: 1px;
+   padding-bottom: 1px;
+   padding-left: 150px;
+   width: 100px; 
+   height: auto;
+  }
+  #about{
+    background: burlywood:important; 
+  }
+  .about .inner{
+    width: 90%
+    padding:10px;
+  }
+  .about .inner p{
+  font-size: 50px;
+  text-align: justify;
+  }
+  .education .inner div, .hobbies .inner div, .skills .inner div{
+  width: 100%;
+  height: auto;
+  }
+  .education{
+    padding: 900px;
+  }
+  .education .inner div {
+  font-size: 40px;
+  }
+  .hobbies{
+   padding: 490px;
+  }
+  .hobbies .inner div{
+  border-bottom: 2px solid #d3d3d3;
+  padding: 980px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  }
+  .hobbies .inner div h1{
+    font-size: 90px;
+  }
+  .hobbies .inner div p{
+    font-size: 40px;
+  }
+  .skills{
+    padding-left: 10px;
+  }
+  .skills .inner{
+  background-color: rgba(0,0,0,0.7);
+  padding: 1500px;
+  color: #fff;
+  background-color-size: 500px;
+}
+ .skills .inner h1{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-size:90px;
+   text-align: center;
+ }
+ .skills .inner div ul li{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 50px;
+}
+ .contact .inner h1{
+   font-size: 50px;
+ }
+ .contact .inner p{
+   font-size: 50px;
+ }
+ .contact .inner{
+  text-align: center;
+  padding: 1390px;
+  padding-bottom: 48px;
+  background-color-size: 40%;
+ }
+}

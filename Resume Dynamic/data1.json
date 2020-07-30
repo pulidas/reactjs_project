@@ -1,0 +1,27 @@
+{
+	"MyProfile":{
+		"name":"Harshavardhan Polidasu",
+		"email":"harshapulidasu628@gmail.com",
+		"phone":9848022338,
+		"address":"407-A, M.G.R Nagar",
+		"image":"image-profile.png"
+	},
+	"Hobbies":[
+		"Drawing","Calligraphy","Playing Chess","Singing"
+	],
+	"LanguagesKnown":[
+		{
+			"name":"Telugu",
+			"bstyle":"First Language"
+		},
+		{
+			"name":"English",
+			"bstyle":"Secound Language"
+		},
+	    {
+			"name":"Hindi",
+			"bstyle":"Third Language"
+		}
+		
+	]
+}

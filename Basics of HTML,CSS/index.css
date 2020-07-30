@@ -1,0 +1,86 @@
+body{
+	background-color: #AED6F1;
+}
+#header{
+	/border:2px solid red;/
+	margin: 2%;
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	border-radius:4%;
+}
+#header>img{
+    height: 9%;
+    width:5%;
+    border-radius: 10%;
+    box-shadow: 2px 2px 2px 2px black;
+}
+#nav{
+	/border:2px solid green;/
+	background-color:#AED6F1;
+	height: 20%;
+	margin:2%;
+	width: 30%;
+	border-radius: 4%;
+	text-align: center;
+	padding: 1%;
+	display: flex;
+	justify-content: space-around; 
+
+}
+#main{
+	/border:2px solid blue;/
+	display: flex;
+	justify-content: space-around;
+	border-radius: 4%;
+	padding: 1%;
+	margin:2%;
+	background-color: white;
+	height:80%;
+}
+#article{
+	/border:2px solid tomato;/
+	display: flex;
+	justify-content: space-around;
+	margin:2%;
+	border-radius: 4%;
+	background-color: white;
+	flex-wrap: wrap;
+	width:60%;
+}
+/css comments/
+.side{
+	/border:2px solid red;/
+	background-color: white;
+	text-align: center;
+	width:15%;
+	border-radius: 4%;
+}
+video{
+	width:96%;
+	height:75%;
+	box-shadow:
+}
+section{
+	/border:2px solid blue;/
+	text-align: center;
+	border-radius: 4%;
+	box-shadow: 2px 2px 2px 2px black;
+	width:30%;
+	margin:1%;
+}
+img{
+	height:90%;
+	width: 90%;
+	margin:1%;
+
+}
+#footer{
+
+	/border:2px solid red;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 7%;
+	background-color: white;
+	margin:2%;
+}
