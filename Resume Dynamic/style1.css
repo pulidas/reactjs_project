@@ -1,21 +1,37 @@
 .mail{
 	background-color: #f4f4f4;
 }
-#name{
+/#name{
 	background-color: #fff;
 	color: #000;
 }
 .parent-div{
 	border: 2px solid #000;
     margin: 5px;
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around; 
 }
 .MyProfile{
 	border: 2px solid #ddd;
 	margin: 5px;
+	text-align: center;
+} 
+.MyProfile ul li{
+	list-style-type: none;
+}
+.mail{
+	background-color:#00bcd4; 
+}
+#phone{
+	margin-right:50px;
 }
 .Hobbies{
 	border: 2px solid #ddd;
 	margin: 5px;
+}
+h1,h2{
+	text-align: center;
 }
 .LanguagesKnown{
 	border: 2px solid #ddd;
@@ -25,13 +41,48 @@ table,td,tr{
 	border: 2px solid #000;
 	border-collapse: collapse;
 }
-.parent-div{
+.firstdiv{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around; 
+	border: 2px solid #ddd;
 }
-.image{
+.seconddiv{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around; 
+	border: 2px solid #ddd;
+	margin: 5px;
+}
+
+.Career_obj{
+   font-family: "Italian"; 
+   font-size: 18px;
+	border: 2px solid #ddd;
+	margin: 5px;
+}
+.Educational_Details{
+   border: 2px solid #ddd;
+	margin: 5px;
+    margin-top: 0px;
+}
+.Educational_Details ol{
+	list-style-type: none;
+}
+.Internships{
+   border: 2px solid #ddd;
+	margin: 5px;
+}
+.Declaration{
+  border: 2px solid #ddd;
+	margin: 5px;
+}
+.Declaration p{
+  font-size:20px;
+  color:black;
+}
+img{
 	border-radius:20px;
-	width: 40%;
-	height: 30%;
+	width: 100px;
+	height: 100px;
 }

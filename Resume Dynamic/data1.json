@@ -1,27 +1,55 @@
 {
-	"MyProfile":{
-		"name":"Harshavardhan Polidasu",
-		"email":"harshapulidasu628@gmail.com",
-		"phone":9848022338,
-		"address":"407-A, M.G.R Nagar",
-		"image":"image-profile.png"
+	"firstdiv": {
+		"MyProfile": {
+			"name": "Name:Harshavardhan Polidasu",
+			"email": "MailID:harshapulidasu628@gmail.com",
+			"phone":  "Mobile:9848022338",
+			"address": "Address:407-A, M.G.R Nagar",
+			"image": "image.jpg"
+		},
+		"Hobbies": [
+			"Drawing", "Calligraphy", "Playing Chess", "Singing"
+		],
+		"LanguagesKnown": [
+			"Telugu is my First Language",
+			"English is my Secound Language",
+			"Hindi is my Third Language"
+		]
 	},
-	"Hobbies":[
-		"Drawing","Calligraphy","Playing Chess","Singing"
-	],
-	"LanguagesKnown":[
-		{
-			"name":"Telugu",
-			"bstyle":"First Language"
-		},
-		{
-			"name":"English",
-			"bstyle":"Secound Language"
-		},
-	    {
-			"name":"Hindi",
-			"bstyle":"Third Language"
+
+	"seconddiv": {
+		"Career_obj":  [{
+
+			"para":"My Short term Career Objective is become an Software Engineer.And coming to my long term Career Objective is play the role of an Civil Servant.As I am a UPSC Aspirant."
+			
+		}],
+		"Educational_Details": [
+			{
+				"College_name": "G.PULLA REDDY ENGINEERING COLLEGE (AUTONOMOUS)",
+				"Board": "JNTUA",
+				"CGPA": "8.0"
+			},
+			{
+				"College_name": "Narayana Junior College",
+				"Board": "Intermediate",
+				"CGPA": "9.2"
+			},
+			{
+				"College_name": "Montessori E.M High School",
+				"Board": "SSC",
+				"CGPA": "9.2"
+			}
+
+		],
+		"Internships": [
+			"Campus Ambassador in Internshala Trainings",
+			"Entrepreneur in IMO VIP",
+			"Digital Marketing and Sales intern in National Engineering Olympiad",
+			"intern in the field of Website Designing Using ReactJS in Skill Development APSSDC"
+		],
+		"Declaration": [{
+			"final":"I solemnly declare that all the information furnished in this document is free of errors to the best of my knowledge."
 		}
-		
-	]
+		]
+	}
 }

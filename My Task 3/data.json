@@ -1,0 +1,19 @@
+[
+    {
+        "ID": "001", 
+        "Name": "Apple", 
+        "Image": "Apple mobile.jpg"
+    },
+  
+    {
+        "ID": "002", 
+        "Name": "Samsung", 
+        "Image": "Samsung mobile.jpg"
+    },
+  
+    {
+        "ID": "003", 
+        "Name": "Oneplus", 
+        "Image": "oneplus.jpg"
+    }
+]
